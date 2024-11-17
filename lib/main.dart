@@ -3,6 +3,6 @@ import 'package:flutter/material.dart';
 
 void main() {
   // comment to commit ss
-  const app = MyApp();
+  final app = MyApp();
   runApp(app);
 }
