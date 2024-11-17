@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 class AuthViewModel extends ChangeNotifier {
   final _authService = AuthService();
 
-  final loginTextController = TextEditingController();
+  final loginTextController = TextEditingController( );
   final passwordTextController = TextEditingController();
 
   String? _errorMessage;

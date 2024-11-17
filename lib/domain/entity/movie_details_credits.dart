@@ -83,3 +83,7 @@ class Employee {
 
   Map<String, dynamic> toJson() => _$EmployeeToJson(this);
 }
+
+
+// build runner command
+// flutter pub run build_runner build --delete-conflicting-outputs
